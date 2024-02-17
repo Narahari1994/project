@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1170px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: "Inter";
+}
+
+nav {
+  height: 80px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.logo {
+  font-weight: 400;
+  color: #ffaa00;
+  font-size: 38px;
+}
+
+.span {
+  font-weight: 400;
+  color: #ffe55d;
+  font-size: 38px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  margin: 0 10px;
+}
+
+.signin {
+  font-weight: 400;
+  font-size: 21px;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #031d91be;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.register {
+  font-weight: 400;
+  font-size: 21px;
+  color: #124c5f;
+  padding: 8px 16px;
+  background-color: #b4e6f1;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff1b2;
+  padding: 30px;
+  position: relative;
+}
+
+.content-container {
+  margin: 6px 32px;
+  padding: 16px;
+  width: 450px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  height: 70vh;
+  width: 50%;
+  background-color: #e0a607;
+  border-top-left-radius: 370px;
+  border-top-right-radius: 280px;
+  border-bottom-left-radius: 230px;
+  border-bottom-right-radius: 320px;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 48px;
+  color: #000;
+}
+
+.description {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 22px;
+  color: #6d6d69;
+  margin: 16px 0;
+  letter-spacing: 2;
+}
+
+.button {
+  align-content: center;
+  background-color: #124c5f;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.image {
+  height: 450px;
+  width: 450px;
+}
+
+.small-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid green;
+}
+
+.img-1 {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.img-2 {
+  position: absolute;
+  top: 80px;
+  right: 530px;
+}
+
+.img-3 {
+  position: absolute;
+  top: 300px;
+  right: 630px;
+}
+
+.img-4 {
+  position: absolute;
+  top: 600px;
+  right: 300px;
+}
